@@ -178,6 +178,8 @@ img {
   height: 400px;
   margin-bottom: 10px;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   
   img {
     height: 100%;
