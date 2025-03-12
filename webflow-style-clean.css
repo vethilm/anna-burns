@@ -1225,6 +1225,13 @@ strong {
     }
 }
 
+
+.rota-embed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #w-node-_26d033ca-9827-f9c1-dd0b-b5bebafc2b9d-c39bbbce {
     grid-template-rows: auto;
     grid-template-columns: 1.75fr 1fr
