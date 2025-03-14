@@ -8,7 +8,7 @@ body {
     margin: 0
 }
 
-footer,
+
 header,
 main,
 section,
@@ -519,17 +519,6 @@ strong {
     padding-top: 71px;
     display: block;
     overflow: visible
-}
-
-.footer {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    height: 90px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex
 }
 
 .quick-stack {
