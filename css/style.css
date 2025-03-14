@@ -12,6 +12,7 @@ body {
   padding: 20px;
   margin: auto;
   width: 85vw;
+  overflow-x: hidden;
 }
 
 header {
@@ -106,7 +107,9 @@ img {
   text-align: center;
   margin-bottom: 40px;
   font-size: 14px;
-  height: 550px;
+  height: 70vh;
+  width: 100vw;
+  margin-left: -10vh;
   display: flex;
   align-items: center;
   justify-items: right;
@@ -119,10 +122,10 @@ img {
 .intro-text {
   margin-left: 0%;
   margin-right: auto;
-  width: 100%;
-  height: 100%;
+  
+  width: 80%;
+  height:100%;
   max-width: 700px;
-
   background-image: url(../images/home/text-bubble-black.svg);
   background-position: center;
   background-size: contain;
@@ -133,9 +136,16 @@ img {
   justify-content: center;
   flex-direction: column;
   gap:8px;
+  padding: 36px;
   h1{
     color: white;
-    font-size:22px;
+    font-size:30px;
+    text-align: center;
+    padding: 0px 25px;
+  }
+  h2{
+    color: white;
+    font-size:18px;
     text-align: center;
     padding: 0px 25px;
   }
@@ -250,7 +260,7 @@ iframe{
 }
 .resume{
   width: 100%;
-  margin: 40px 0px;
+  margin: 10px 0px;
   h3{
     padding: 4px 0px;
   }
@@ -283,6 +293,15 @@ iframe{
 }
  
 @media screen and (max-width:991px) {
+  .intro{
+    width:100vw;
+    margin-left:-10vw;
+  }
+.intro-text{
+  width: 65%;
+  background-size: fill;
+}
+
   .gallery-item {
     flex-direction: column;
     gap:10px;
@@ -320,12 +339,29 @@ iframe{
 
 }
 
-@media screen and (max-width:767px) {}
-
-@media screen and (max-width:479px) {}
+@media screen and (max-width:767px) {
+  .intro{
+    width:100vw;
+    margin-left:-10vw;
+  }
+}
 
 
 @media (max-width: 600px) {
+  .intro{
+    width: 100%;
+    margin-left:0px;
+    margin-top: 120px;
+    height:60vh;
+    justify-content: start;
+    align-items: start;
+    background-position: bottom;
+    background-image: url(../images/home/heroimg-mobile.png);
+  }
+  .intro-text{
+    margin-top: -20%;
+    width: 100%;
+  }
   body{
     width: 100%;
   } 
@@ -344,3 +380,17 @@ iframe{
   }
 }
 
+
+@media (max-width: 400px) {
+  .intro{
+    margin-top: 50px;
+  }
+  .intro-text{
+    h1{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 15px;
+    }
+  }
+}
