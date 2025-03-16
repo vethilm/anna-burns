@@ -422,7 +422,8 @@ h6 {
 }
 
 p {
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    font-weight:400;
 }
 
 a {
@@ -444,7 +445,8 @@ ul {
 li {
     color: var(--text-color);
     margin-bottom: 8px;
-    padding-left: 8px
+    padding-left: 8px;
+    font-weight: 400;
 }
 
 img {
