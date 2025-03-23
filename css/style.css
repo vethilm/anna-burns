@@ -1,3 +1,4 @@
+/* all new pages should use this style sheet*/
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,66 @@ body {
   width: 85vw;
   overflow-x: hidden;
 }
+/*  text styles duplicated from webflow styles*/
+
+h1 {
+  color: var(--neutral--800);
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: Geologica, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 66px
+}
+
+h2 {
+  color: var(--neutral--800);
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  display: flex
+}
+
+h3 {
+  color: var(--neutral--800);
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px
+}
+
+h4 {
+  color: var(--neutral--800);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px
+}
+
+h5 {
+  color: var(--neutral--800);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px
+}
+
+h6 {
+  color: var(--neutral--800);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px
+}
+
 
 header {
   display: flex;
@@ -36,8 +97,8 @@ header nav a {
 footer{
   display: flex;
   flex-direction: row;
-  align-items: center;
-
+  align-items:center;
+  justify-content: spa;
   margin-bottom: 20px;
   border:1px solid red;
   .links{
@@ -59,7 +120,7 @@ footer  a{
   background: orange;
   bottom: -5px;
   left: 0;
-  transform: rotate(-2deg);
+  transform: rotate(-5deg);
 }
 
 
@@ -104,7 +165,9 @@ img {
 
 .overview {
   display: flex;
-
+  width: 70vw;
+  margin-left: auto;
+  margin-right:auto;
   .left {
     width: 50%;
   }
@@ -245,9 +308,12 @@ img {
 .project-btn {
   height: 20px;
 }
-
-
-
+/* kalro */
+.styleGuide{
+  width:70%;
+  filter:drop-shadow(4px 4px 2px #d5d5df)
+}
+/* motion design page  */
 .motion-gallery{
   display: flex;
   flex-direction: row;
@@ -277,6 +343,8 @@ iframe{
   width:500px;
   height: 300px;
 }
+
+
 /* aboutpage */
 
 .about{
