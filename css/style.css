@@ -266,9 +266,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  border:1px solid blue;
-  
+  justify-content: center;  
 }
 
 .gallery-item:nth-child(even) {
@@ -285,8 +283,6 @@ img {
   max-width: 1000px;
   height: 100%;
   max-height: 700px;
-
-  border:1px solid red;
   img {
     height:100%;max-height: 650px;
     object-fit: cover;
@@ -296,7 +292,6 @@ img {
 }
 
 .art-process {
-  border:1px solid lime;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
