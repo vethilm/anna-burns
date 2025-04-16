@@ -27,7 +27,19 @@
         <a href="about.html">About</a>
       </nav>
     </header>
-
+    <header class="mobile-nav">
+      <a href="index.html" class="logo">
+        <img class="logo-icon" src="images/logo.svg" alt="Anna Burns" />
+      </a>
+      <div class="menu-icon " onclick="toggleNav()">      </div>
+      <nav class="mobile-links" id="links">
+        <a href="index.html">Projects</a>
+        <a href="illustration.html" >Art + Illustration</a>
+        <a href="motion-design.html">Motion Design</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <div id="overlay" onclick="off()"></div>
     <div class="overview">
       <div class="left">
         <h1>Kalro</h1>
@@ -52,6 +64,7 @@
     <img src="images/kalro/Store.png" alt="store page mockup" class="styleGuide">
     <img src="images/kalro/Product_Page.png" alt="product page mockup" class="styleGuide">
   </body>
+  <script src="script/nav.js"></script>
   <script data-goatcounter="https://vethilm.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </html>

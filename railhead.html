@@ -70,6 +70,19 @@
         <a href="about.html">About</a>
       </nav>
     </header>
+    <header class="mobile-nav">
+      <a href="index.html" class="logo">
+        <img class="logo-icon" src="images/logo.svg" alt="Anna Burns" />
+      </a>
+      <div class="menu-icon " onclick="toggleNav()">      </div>
+      <nav class="mobile-links" id="links">
+        <a href="index.html">Projects</a>
+        <a href="illustration.html" >Art + Illustration</a>
+        <a href="motion-design.html">Motion Design</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <div id="overlay" onclick="off()"></div>
     <div class="w-layout-blockcontainer w-container">
       <div
         id="w-node-dd1fd9c0-6473-47c9-75a0-581a9d8f546a-c39bbc77"
@@ -316,4 +329,5 @@
   </body>
   <script data-goatcounter="https://vethilm.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+        <script src="script/nav.js"></script>
 </html>
