@@ -452,8 +452,21 @@ iframe{
   .project-desc{
     margin:0px
   }
+  .art-gallery-item{
+    width:100%;
+   
+
+  }
   .gallery-item:nth-child(even), .art-gallery-item:nth-child(even) {
     flex-direction: column;
+  }
+  .art-process{
+    flex-direction: row;
+    max-width: 100%;
+    flex-grow: 100vw;
+    img{
+      width:45%
+    }
   }
   .motion-item{
     margin: 0px !important
