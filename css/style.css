@@ -509,6 +509,7 @@ iframe{
   }
   .art-gallery-item{
     width:100%;
+    height:fit-content
   }
   .gallery-item:nth-child(even), .art-gallery-item:nth-child(even) {
     flex-direction: column;
@@ -521,6 +522,7 @@ iframe{
     img{
       width:45%;
       object-fit: contain;
+      height:fit-content;
     }
   }
   .motion-item{
