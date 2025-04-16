@@ -490,9 +490,7 @@ iframe{
   width: 65%;
   background-size: fill;
 }
-.gallery-item{
-  max-height: 60vh;
-}
+
   .gallery-item, .art-gallery-item{
     flex-direction: column;
     gap:10px;
