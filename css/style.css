@@ -14,6 +14,7 @@ body {
   margin: auto;
   width: 85vw;
   overflow-x: hidden;
+  background-color: white;
 }
 /*  text styles duplicated from webflow styles*/
 
@@ -336,6 +337,7 @@ img {
   flex-direction: column;
   gap:100px;
   width:100%;
+  object-fit: contain;
   margin-left: auto;
   margin-right: auto;
 
@@ -507,8 +509,6 @@ iframe{
   }
   .art-gallery-item{
     width:100%;
-   
-
   }
   .gallery-item:nth-child(even), .art-gallery-item:nth-child(even) {
     flex-direction: column;
@@ -517,8 +517,10 @@ iframe{
     flex-direction: row;
     max-width: 100%;
     flex-grow: 100vw;
+    object-fit: contain;
     img{
-      width:45%
+      width:45%;
+      object-fit: contain;
     }
   }
   .motion-item{
