@@ -425,10 +425,9 @@ img {
 }
 .motion-item{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width:560px;
+  width:50%;
   margin:0px;
   padding: 0px;
 }
@@ -526,6 +525,7 @@ iframe{
     }
   }
   .motion-item{
+    width:560px;
     margin: 0px !important
   }
   .motion-item:nth-child(even){
