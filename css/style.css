@@ -210,12 +210,7 @@ footer  a{
   flex-wrap: wrap;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-}
+
 
 .overview {
   display: flex;
@@ -371,6 +366,10 @@ img {
   img{
    max-height: 300px;
    margin: 8px;
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 10px auto;
   }
 }
 .caption{
@@ -384,12 +383,15 @@ img {
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
-  
   img {
     height: 100%;
     object-fit: contain;
     object-position: center;
     border-radius: 20px;  
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
   }
 }
 
@@ -495,9 +497,6 @@ iframe{
     flex-direction: column;
     gap:10px;
     height: fit-content;
-    img{
-      height: fit-content;
-    }
   }
   .project-thumbnail{
     height: fit-content;
@@ -588,15 +587,24 @@ iframe{
     width: 100%;
   } 
 
-  .project-thumbnail{
-    height: fit-content;
-    .img{
-      max-width: 100%;
-      height: auto;
-      display: block;
-    margin: 10px auto;
+  .project-thumbnail {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 50px;
+
+
+    img {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        object-fit: cover;
+    
     }
-  }
+
+}
 
   header nav a {
     margin: 10px 10px 0 0;
