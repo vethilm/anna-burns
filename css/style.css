@@ -190,13 +190,13 @@ header {
   margin: auto;
 }
   .g75 {
-    grid-column: span 4 / span 4;
+    grid-column: span 12 / span 12;
   }
   .g50 {
-    grid-column: span 4 / span 4;
+    grid-column: span 12 / span 12;
   }
   .g25 {
-    grid-column: span 4/ span 4;
+    grid-column: span 12/ span 12;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
