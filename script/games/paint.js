@@ -1,9 +1,10 @@
-function paint() {
-    console.log(playing);
+
     const canvas = document.getElementById("paintCanvas");
     const ctx = canvas.getContext("2d");
     canvas.height = 600;
     canvas.width = 800;
+    ctx.fillStyle ="#f3f1ef";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
     ctx.beginPath();
     ctx.rect(canvas.width,canvas.height,0,0);
     ctx.fillStyle ="#D63927";
@@ -78,8 +79,8 @@ function paint() {
         ctx.beginPath();
         ctx.moveTo(prevX, prevY);
         ctx.lineTo(currentX, currentY);
-        console.log("X" + prevX + " -> " + currentX);
-        console.log("Y" + prevY + " -> " + currentY);
+        // console.log("X" + prevX + " -> " + currentX);
+        // console.log("Y" + prevY + " -> " + currentY);
         ctx.lineJoin = "round";
 
         ctx.closePath();
@@ -89,8 +90,4 @@ function paint() {
         prevX = currentX;
         prevY = currentY;
     })
-    if (playing != "paintWindow") {
-        console.log("end")
-        return
-    }
-} 
+

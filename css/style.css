@@ -162,26 +162,26 @@ header {
 /* grid styles */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 12px;
   position: relative;
   z-index: 2;
 }
 .gdiv {
-  /* border: 1px solid rgba(56, 55, 55, 0.877); */
+  border: 1px solid rgba(56, 55, 55, 0.877);
   padding: 8px 0px;
 }
 .g100 {
-  grid-column: span 4 / span 4;
+  grid-column: span 12 / span 12;
 }
 .g75 {
-  grid-column: span 3 / span 3;
+  grid-column: span 9 / span 9;
 }
 .g50 {
-  grid-column: span 2 / span 2;
+  grid-column: span 6 / span 6;
 }
 .g25 {
-  grid-column: span 1 / span 1;
+  grid-column: span 3 / span 3;
 }
 
 @media (max-width: 700px) {
@@ -213,6 +213,7 @@ header {
 .row {
   display: flex;
   flex-direction: row;
+  gap:16px
 }
 .wrap {
   flex-wrap: wrap;
@@ -229,6 +230,9 @@ header {
 
 .w100 {
   width: 100%;
+}
+.w75{
+  width: 75%;
 }
 .w50 {
   width: 50%;

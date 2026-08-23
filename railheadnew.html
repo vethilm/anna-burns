@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Muse | Burns </title>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="my-muse">
+  <header>
+    <a href="index.html" class="logo">
+      <img class="logo-icon" src="images/brand/logo_white.svg" alt="Anna Burns" />
+    </a>
+    <nav>
+      <a href="index.html">Projects</a>
+      <a href="illustration.html">Art + Illustration</a>
+      <a href="motion-design.html">Motion Design</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <header class="mobile-nav">
+    <a href="index.html" class="logo">
+      <img class="logo-icon" src="images/brand/logo_white.svg" alt="Anna Burns" />
+    </a>
+    <div class="menu-icon " onclick="toggleNav()"> </div>
+    <nav class="mobile-links" id="links">
+      <a href="index.html">Projects</a>
+      <a href="illustration.html">Art + Illustration</a>
+      <a href="motion-design.html">Motion Design</a>
+      <a href="about.html" class="active-page">About</a>
+    </nav>
+  </header>
+  <div id="overlay" onclick="off()"></div>
+  <div class="grid content">
+    <div class="gdiv g50 col">
+      <div>
+        <h1>Railhead</h1>
+        <p>This is an academic project in which I designed marketing materials for the hypothetical movie Railhead based
+          on the book by Phillip Reeve. </p>
+        <p>The materials included: </p>
+        <ul class="text-list">
+          <li>2 social media posts</li>
+          <li>A movie poster</li>
+          <li>A train car advertisement</li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <img src="images/railhead/zen.png" alt="" class="w50">
+        <img src="images/railhead/nova.png" alt="" class="w50">
+      </div>
+    </div>
+    <div class="gdiv g50 col center-vertical center-horizontal">
+
+      <img src="images/railhead/finalposter-201poster.png" alt="" class="w75">
+    </div>
+    <div class="gdiv g100 relative">
+       <div class="halftone"></div>
+      <img src="images/railhead/untitled_artwork-202-201train.png" al="" class="w100">
+    </div>
+    <div class="gdiv g100">
+      <h2>Process</h2>
+    </div>
+    <div class="gdiv g50">
+      <p class="tab">The first thing I did was re-read the book and take notes, mostly on the trains and characters,
+        since I knew I would focus on them. </p>
+      <p class="tab">While reading the book, I also did some sketches for the title, train, and characters. </p>
+    </div>
+    <div class="gdiv g50 row center-vertical">
+      <img src="images/railhead/img_0870.jpg" alt="" class="w50">
+    </div>
+    <div class="g100 relative">
+      <div class="halftone"></div>
+      <img src="images/railhead/refs.png" alt="" class="w100">
+    </div>
+
+    <div class="gdiv g100">
+      <h3>Train Ad</h3>
+    </div>
+    <div class="gdiv g50">
+      <p class="tab">
+        For the train ad I wanted to make a graffiti-like design, placing the characters at eye level to those boarding
+        the train. Since the main design is very central on the train car, I added a horizontal line that wraps around
+        the entire train featuring the tagline “The universe is waiting,” as well as several smaller designs that mimic
+        stickers tossed onto the train. These have the title and release date on them in a more legible font than the
+        main design.
+      </p>
+    </div>
+    <div class="g50"><img src="images/railhead/train-20process.png" alt="" class="w100"></div>
+
+    <div class="gdiv g100">
+      <h3>Countdown Posts</h3>
+    </div>
+    <div class="gdiv g100">
+      <p class="tab">My pitch included 2 social media posts for the time I had, but did sketches for a third in case I
+        could squeeze in another. For these I decided to do a sort of countdown to the release of the movie with each
+        character getting a day, inspired by some of Studio Trigger's promotional material. </p>
+    </div>
+    <div class="gdiv g100 row fill relative">
+      <div class="halftone"></div>
+      <img src="images/railhead/character-sketches.png" alt="" class="w50">
+      <img src="images/railhead/character-20process.png" alt="" class="w100" style="background-color: white;">
+    </div>
+    <div class="gdiv g100">
+      <h3>Movie Poster</h3>
+    </div>
+    <div class="gdiv g50">
+      <p class="tab">I made the train and train station in blender </p>
+    </div>
+    <div class="gdiv g50">
+      <img src="images/railhead/mapping-p-1080.png" alt="" class="w100">
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="grid w100">
+    <div class="gdiv g50 contact col">
+      <h3>Get in Touch</h3>
+      <a href="mailto:burnsc376&#064;gmail&#046;com">burnsc376&#064;gmail&#046;com</a>
+    </div>
+    <div class="gdiv g50">
+      <!-- <button>play a game?</button> -->
+    </div>
+    <div class="g100">
+      <div class="row">
+        <a class="link" href="index.html">Projects</a>
+        <a class="link" href="illustration.html">Art + Illustration</a>
+        <a class="link" href="motion-design.html">Motion Design</a>
+        <a class="link" href="about.html">About</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script data-goatcounter="https://vethilm.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script src="script/nav.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-EJT59LN02P');
+</script>
+
+</html>
