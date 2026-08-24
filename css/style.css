@@ -56,7 +56,7 @@ body {
   --accent: var(--yellow);
 }
 .content {
-  width: 75vw;
+  width: 80vw;
   margin: auto;
 }
 /* #region loading*/
@@ -178,7 +178,7 @@ header {
   grid-column: span 9 / span 9;
 }
 .g50 {
-  grid-column: span 6 / span 6;
+  grid-column: span 6/ span 6;
 }
 .g25 {
   grid-column: span 3 / span 3;
@@ -298,9 +298,24 @@ header {
   text-align: center;
   font-size: 18px;
 }
+#my-muse{
+  .arrow{
+      background-image: url("../images/icons/arrow_light_blue.png");
+  }
+}
 #clikd{
   .arrow{
       background-image: url("../images/icons/arrow_dark_blue.png");
+  }
+}
+#railhead{
+  .arrow{
+      background-image: url("../images/icons/arrow_red.png");
+  }
+}
+#rota{
+  .arrow{
+    background-image: url("../images/icons/arrow_yellow.png");
   }
 }
 
