@@ -597,20 +597,21 @@ footer {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 36px;
+  padding: 20px;
 
   h1 {
     color: var(--primary-background);
     font-size: 34px;
     text-align: center;
-    padding: 0px 25px;
+    margin-bottom: 0px;
   }
 
-  h2 {
+  p {
     color: var(--primary-background);
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
-    padding: 0px 25px;
+    font-weight: 500;
+    width:85%
   }
 }
 
@@ -1195,8 +1196,10 @@ iframe .motion-item {
       line-height: 30px;
     }
 
-    h2 {
-      line-height: 30px;
+    p {
+      line-height: 25px;
+      font-size: 14px;
+      width:95%;
     }
   }
 }
